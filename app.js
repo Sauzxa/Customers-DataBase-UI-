@@ -12,7 +12,7 @@ var moment = require("moment") // library for time handiling
 var methodOverride = require("method-override")
 app.use(methodOverride('_methode')) // to override the methode ex : post -> put // to change datac//_methode howa li nasta3mlo bach ndir override
 
-
+//
 app.set('view engine', 'ejs'); 
 app.use(express.static('public'));
 
